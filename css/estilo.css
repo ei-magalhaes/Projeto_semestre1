@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family:Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+body{     
+    background-color: #E9EFC0;
+}
+
+header{
+    display: block;
+    background-color: #DA1212;
+    margin-bottom: 20px;
+}
+
+
+header #inicio{
+    background-color: #630606;
+    padding: 13px;
+    color: #fff;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+}
+
+header #inicio span{
+font-family: 'Raleway', sans-serif;
+}
+
+
+#header-center{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 3fr;
+    height: 185px;
+}
+
+#header-center figure #car{
+    margin-left: 10px;
+}
+
+#banner{
+    width: 200px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#logo span{
+    line-height: 85px;
+    font-size: 4.3em;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+}
+
+
+#frase p{
+    font-size: 2em;
+    position: absolute;
+    top: 30px;
+    text-align: justify;
+    position: relative;
+    font-family: 'Satisfy', sans-serif;
+    color: #fff;
+}
+
+#car{
+    margin-right: 5px;
+}
+
+header #menu{
+    display: flex;
+    background-color: #03045E;
+    justify-content: space-around;  
+    padding: 13px 0;
+}
+
+header #menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    background-color: #03045E;
+}
+
+header #menu a:hover{
+    background-color: #43747c;
+}   
+
+section{
+    margin: auto;
+    width: 95%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.container figure img{
+    width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container figure{
+    padding: 20px;
+    margin: 10px 10px;  
+    border: 1px solid #6d6b6bc0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.container figure figcaption{
+    width: 200px;
+}
+
+.titulo{
+    padding: 13px 0 13px 10px ; 
+    border-radius: 20px;   
+    background-color: #DA1212;
+    margin: 20px 0;  
+    border: 1px solid #6d6b6bc0;
+    border-radius: 20px;
+    box-shadow: 0 0 3   px #000;
+
+}
+
+footer{
+    margin-top: 20px;
+    display: block;
+}
+
+#footer1{
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+#contato{
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#nome, #email, #assunto, #msg {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#submit{
+    margin-top: 7px;
+    background-color: #03045E;
+    color: #fff;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #43747c;
+}
+
+#rgms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #11468F;
+    padding: 20px;
+}
+
+#rodape{
+    background-color: #03045E;
+    color: #fff;
+}
+
+#footer2{
+    padding: 20px;
+    text-align: center;
+}
+
+#icones{
+    padding: 20px 0;
+}
+
+#icones i{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 13px 13px 23px 13px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #03045E;
+    box-shadow:  0 0 5px #03045E;
+    text-decoration: none;
+    text-align: center;
+}
+
+#fixed span{
+    color: #fff;
+    font-size: 2em;
+}
+
+.container figure:hover {
+    background-color: #c3c3c3;
+}
+
+#car{
+  margin-left:-10px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+figure figcaption span{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow:  rgb(250, 109, 14) 0 0 20px 2px;
+    text-shadow: rgb(196, 238, 11) 0 0 6px, rgb(173, 233, 7) 0 0 10px;
+    margin: 15px 0 ;
+    background: #e5e900;
+    transition:  all 0.5s;
+}
+
+ h3, #preços{
+    text-align: center;
+}
+
+@keyframes preço {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#preço:hover{
+    animation: preço 2s linear infinite;
+color: #000;
+}
+
+
+@media only screen and (max-width: 1020px){
+
+    #menu{
+        flex-wrap: wrap;
+    }
+
+    #menu a{
+        margin: 10px;
+    }
+
+    #banner{
+        width: 175px;
+    }
+
+    .titulo{
+        font-size: 0.8em;
+        padding: 10px 0 10px 10px;
+    }
+
+    #car, #frase{
+        display: none;
+    }
+
+    #header-center{
+        grid-template-columns: 1fr 5fr;
+    }
+   
+    #preço:hover{
+        animation: preço 2s linear infinite;
+    color: #DA1212;
+
+}
+
+
+@media only screen and (max-width: 690px){
+    #logo span{
+        font-size: 2.5em;
+    }
+
+    #rgms{
+        flex-direction: column;
+    }
+
+    #banner{
+        width: 150px;
+    }
+
+    #preço:hover{
+        animation: preço 2s linear infinite;
+    color: #DA1212;
+
+
+}
+
+@media only screen and (max-width: 440px){}
+
+    #logo span{
+        font-size: 1.5em;
+    }
+
+    #banner{
+        margin: auto;
+        display: block;
+    }
+
+    figure figcaption, figure h3{
+        font-size: 15px;
+   }
+  
+   #preço:hover{
+    animation: preço 2s linear infinite;
+    color: #DA1212;
+   }
